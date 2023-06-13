@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f | awk -F. '{print $NF}' | sort | uniq -c
+grep -i -V "bin" /etc/passwd

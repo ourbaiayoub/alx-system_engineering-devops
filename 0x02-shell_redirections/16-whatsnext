@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f \( -name "*.txt" -o -name "*.md" \) -exec ls -l {} \;
+grep -i -A 3 "root" /etc/passwd
