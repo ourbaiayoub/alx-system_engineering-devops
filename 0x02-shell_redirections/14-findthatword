@@ -1,2 +1,2 @@
 #!/bin/bash
-aspell -c iput.txt
+grep -i "root" /etc/passwd

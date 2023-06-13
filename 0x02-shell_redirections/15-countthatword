@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -exec cat {} \;
+grep -i "bin" etc/passwd/ | ws -l
