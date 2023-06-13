@@ -1,0 +1,4 @@
+#!/bin/bash
+start_line=5
+end_line=10
+sed -n "${start_line},${end_line}p" input.txt > output.txt

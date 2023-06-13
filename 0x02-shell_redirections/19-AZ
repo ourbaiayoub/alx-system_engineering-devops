@@ -1,0 +1,2 @@
+#!/bin/bash
+shuf input.txt -o output.txt

@@ -1,0 +1,2 @@
+#!/bin/bash
+aspell -c iput.txt
