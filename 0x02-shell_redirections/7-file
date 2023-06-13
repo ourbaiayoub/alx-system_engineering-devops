@@ -1,2 +1,7 @@
 #!/bin/bash
-echo "Best School" > '*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"
+# Create the file with the desired name and content
+echo "Best School" > '*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
+# Display the file details
+ls -l
+# Display the file content
+cat '*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
